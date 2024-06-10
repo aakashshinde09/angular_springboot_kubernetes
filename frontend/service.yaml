@@ -6,7 +6,7 @@ spec:
   selector: 
     app: frontend-app 
   ports: 
-  - name: tomcat 
+  - name: angular 
     targetPort: 30080
     port: 30080
   type: NodePort 

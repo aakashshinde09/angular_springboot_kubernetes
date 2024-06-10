@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: backend-app
 spec: 
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: backend-app
@@ -18,6 +18,6 @@ spec:
       - name: backend-app 
         image: aakashshinde09/angular-test:backendk8s
         ports:
-        - name: tomcat
+        - name: springboot-tomcat
           containerPort: 8085
           protocol: TCP 
