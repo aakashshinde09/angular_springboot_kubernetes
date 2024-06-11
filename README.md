@@ -10,8 +10,6 @@ This project demonstrates the deployment of an Angular frontend application and 
 - [Service Configuration](#service-configuration)
 - [Post-Deployment Configuration](#post-deployment-configuration)
 - [Increasing Replicas](#increasing-replicas)
-- [Contact](#contact)
-- [License](#license)
 
 ## Project Overview
 
